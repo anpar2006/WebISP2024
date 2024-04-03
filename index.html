@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML and CSS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../"><strong>Home</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="journey.html">My Journey<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="HTML.html">HTML<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="CSS.html">CSS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="JavaScript.html">JavaScript<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+
+</head>
+<body>
+
+  <div class="ripple">
+    <svg viewBox="0 0 180 100" width="100%">
+      <filter width="100%" height="100%" x="0%" y="0%" id="noise">
+        <feTurbulence type="turbulence" baseFrequency="0.1547184" id="turbulence" numOctaves="1" result="turbulence" seed="5">
+          <animate id="noiseAnimate" attributeName="baseFrequency" values="0;.1;0,0" from="0" to="100" dur="10s" repeatCount="indefinite"></animate>
+        </feTurbulence>
+        <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="1" xChannelSelector="R" yChannelSelector="R"></feDisplacementMap>
+      </filter>
+      <foreignObject width="100%" height="100%">
+        <img src="https://images.unsplash.com/photo-1479981280584-037818c1297d?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" xlink:href="data:https://images.unsplash.com/photo-1479981280584-037818c1297d?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width="100%" height="100%" x="0" y="0" style="filter: url(&quot;#noise&quot;);" />
+      </foreignObject>
+    </svg>
+  </div>
+
+    <main>
+      <div class="intro-page">  
+        <h1 class="intro-title">Avish Parekh's ISP</h1>
+        <p class="intro-text">My ISP for this year is to learn the programming languages that are neceassary to design a website--HTML, CSS, JavaScript, 3JS, and various other languages. This website will demonstrate the knowledge that I have gained throughout this project. In this website, I will explain and display what I have learned for each of the programming languages.</p>
+      </div>

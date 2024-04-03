@@ -1,0 +1,10 @@
+.html-intro, .textsizes, .buttons, .images, .CSS-intro, .colors, .align, .marginspacing, .javascript-intro {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
